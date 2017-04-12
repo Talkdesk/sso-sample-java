@@ -1,0 +1,9 @@
+security:
+  oauth2:
+    client:
+      client-id: <client_id>
+      client-secret: <client_secret>
+      access-token-uri: https://<account_name>.talkdeskid.com/oauth/token
+      user-authorization-uri: https://<account_name>.talkdeskid.com/oauth/authorize
+    resource:
+      user-info-uri: https://api.talkdeskapp.com/users/me
